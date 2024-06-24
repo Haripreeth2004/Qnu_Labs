@@ -1,0 +1,11 @@
+Modules found:
+piso_shift_register
+
+Signals found:
+input: clk
+input: enable
+input: reset
+output: shift_reg
+input: load
+input: parallel_in
+output: serial_out

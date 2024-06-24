@@ -1,0 +1,16 @@
+Clock Analysis:
+Average Clock Period (ns): 17.8
+Jitter (ns): 3.35
+Rising Times (ns): [11, 25, 43, 66, 84, 100]
+Falling Times (ns): [16, 35, 52, 77, 94]
+Rising Duty Cycle (%): [35.714285714285715, 55.55555555555556, 39.130434782608695, 61.111111111111114, 62.5]
+Rising Skew (ns): [-2.0, 1.0, -2.5, 2.0, 2.0]
+
+Data Stream Analysis:
+Rising Edges (ns): [0]
+Falling Edges (ns): [11, 16]
+Pulse Shifts (ns): [11]
+Delays (ns): []
+Incrementing: True
+Decrementing: False
+Rising Skew (ns): [11]

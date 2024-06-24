@@ -1,0 +1,6 @@
+Inputs:
+clk [1 bits]
+rst [1 bits]
+
+Outputs:
+data_out [1 bits]

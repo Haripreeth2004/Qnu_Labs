@@ -1,0 +1,23 @@
+#! /usr/bin/vvp
+:ivl_version "10.3 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 9;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+:vpi_module "v2009";
+S_0x5e10443772f0 .scope module, "my_design" "my_design" 2 4;
+ .timescale -9 -9;
+    .port_info 0 /INPUT 1 "clk"
+o0x7201800de018 .functor BUFZ 1, C4<z>; HiZ drive
+v0x5e1044377470_0 .net "clk", 0 0, o0x7201800de018;  0 drivers
+L_0x720180095018 .functor BUFT 1, C4<x>, C4<0>, C4<0>, C4<0>;
+v0x5e10443a9140_0 .net "my_signal_1", 0 0, L_0x720180095018;  1 drivers
+L_0x720180095060 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x5e10443a9200_0 .net "my_signal_2", 0 0, L_0x720180095060;  1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "/workspaces/Qnu_Labs/cocotb_sample/my_design.sv";

@@ -1,0 +1,6 @@
+Average Clock Period (ns): 17.80
+Rising Time (ns): [11, 25, 43, 66, 84, 100]
+Falling Time (ns): [16, 35, 52, 77, 94]
+Rising Duty Cycle (%): [35.71, 55.56, 39.13, 61.11, 62.5]
+Rising Skew (ns): [-2.0, 1.0, -2.5, 2.0, 2.0]
+Jitter (ns): 3.35

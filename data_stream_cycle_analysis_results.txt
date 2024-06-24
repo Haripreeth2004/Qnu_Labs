@@ -1,0 +1,13 @@
+Cycle Analysis:
+Start Time (ns) - End Time (ns): Previous Value -> Current Value [Behavior]
+0 - 11: 0 -> 1 [Incrementing]
+11 - 16: 1 -> 1 [Constant]
+16 - 25: 1 -> 2 [Incrementing]
+25 - 35: 2 -> 2 [Constant]
+35 - 43: 2 -> 3 [Incrementing]
+43 - 52: 3 -> 3 [Constant]
+52 - 66: 3 -> 4 [Incrementing]
+66 - 77: 4 -> 4 [Constant]
+77 - 84: 4 -> 5 [Incrementing]
+84 - 94: 5 -> 5 [Constant]
+94 - 100: 5 -> 6 [Incrementing]

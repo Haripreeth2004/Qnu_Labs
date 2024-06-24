@@ -1,0 +1,9 @@
+Inputs:
+enable [1 bits]
+reset [1 bits]
+load [1 bits]
+parallel_in [8 bits]
+
+Outputs:
+shift_reg [8 bits]
+serial_out [1 bits]
