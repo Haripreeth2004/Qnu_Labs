@@ -1,0 +1,126 @@
+Inputs:
+clock [1 bits]
+clk1 [1 bits]
+clk2 [1 bits]
+enable [1 bits]
+reset [1 bits]
+rstn [1 bits]
+load [1 bits]
+parallel_in [8 bits]
+serial_in [4 bits]
+decre_in [4 bits]
+data1 [8 bits]
+High_data [16 bits]
+data2 [1 bits]
+reset1 [1 bits]
+
+Outputs:
+shift_reg [8 bits]
+serial_out [1 bits]
+
+Comments:
+// input clock 5MHZ
+//input clock 20Mhz
+//input clock 10Mhz
+// input enable
+// active low input reset
+// active high input reset
+// output
+// Control signal to load parallel input 
+// 8-bit parallel incremental input 
+// 4-bit serial incremental input 
+// 8 bit decremental input 
+// 8-bit random input data
+// 16 bit random input data
+// random input data
+// active high input
+// Serial output
+// output shift_reg
+// Shift left and insert a 0 at LSB
+// MSB is the serial output
+
+Input Comments:
+// input clock 5MHZ
+//input clock 20Mhz
+//input clock 10Mhz
+// input enable
+// active low input reset
+// active high input reset
+// Control signal to load parallel input 
+// 8-bit parallel incremental input 
+// 4-bit serial incremental input 
+// 8 bit decremental input 
+// 8-bit random input data
+// 16 bit random input data
+// random input data
+// active high input
+
+Output Comments:
+// output
+// Serial output
+// output shift_reg
+// MSB is the serial output
+
+Reset Comments:
+// active low input reset
+// active high input reset
+
+Clock Comments:
+// input clock 5MHZ
+//input clock 20Mhz
+//input clock 10Mhz
+
+Active high Comments:
+// active high input reset
+// active high input
+
+Active low Comments:
+// active low input reset
+
+Data Comments:
+// 8-bit random input data
+// 16 bit random input data
+// random input data
+
+Random Comments:
+// 8-bit random input data
+// 16 bit random input data
+// random input data
+
+Incremental Comments:
+// 8-bit parallel incremental input 
+// 4-bit serial incremental input 
+
+Decremental Comments:
+// 8 bit decremental input 
+
+Clock Information:
+clock: 5000000.0 Hz
+clk1: 20000000.0 Hz
+clk2: 10000000.0 Hz
+
+Reset Information:
+reset: active low
+rstn: active high
+reset1: active high
+
+Reset Order:
+reset
+rstn
+reset1
+
+Data Information:
+parallel_in [7:0]: incremental data
+serial_in [3:0]: incremental data
+decre_in [3:0]: decremental data
+data1 [7:0]: random data
+High_data [15:0]: random data
+data2: random data
+
+Data Order:
+parallel_in [7:0]
+serial_in [3:0]
+decre_in [3:0]
+data1 [7:0]
+High_data [15:0]
+data2
