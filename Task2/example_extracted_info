@@ -1,0 +1,76 @@
+Inputs:
+clock1 [1 bits]
+clock2 [1 bits]
+rst [1 bits]
+enable [1 bits]
+next [1 bits]
+data_in [4 bits]
+decre_in [4 bits]
+
+Outputs:
+data_out [4 bits]
+
+Comments:
+//250 Mhz clock input
+//100Mhz clock input
+//active high reset input
+// enable input
+// incremental data input
+// decremental data input
+//output data
+
+Input Comments:
+//250 Mhz clock input
+//100Mhz clock input
+//active high reset input
+// enable input
+// incremental data input
+// decremental data input
+
+Output Comments:
+//output data
+
+Reset Comments:
+//active high reset input
+
+Clock Comments:
+//250 Mhz clock input
+//100Mhz clock input
+
+Active high Comments:
+//active high reset input
+
+Active low Comments:
+
+
+Data Comments:
+// incremental data input
+// decremental data input
+//output data
+
+Random Comments:
+
+
+Incremental Comments:
+// incremental data input
+
+Decremental Comments:
+// decremental data input
+
+Clock Information:
+clock1: 250000000.0 Hz
+clock2: 100000000.0 Hz
+
+Reset Information:
+rst: active high
+
+Reset Order:
+rst
+
+Data Information:
+data_in [3:0]: incremental data
+decre_in [3:0]: decremental data
+
+Data Order:
+data_in [3:0]
+decre_in [3:0]
