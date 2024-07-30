@@ -8,7 +8,7 @@ VERILOG_SOURCES = $(shell pwd)/piso_shift_register.v
 GUI=1
 
 TOPLEVEL=piso_shift_register
-MODULE=test_hp
+MODULE=test_cocotb
 
 #COCOTBHDLPRECISION = 1ns
 #COCOTBHDLPRECISION = 1ps
